@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools"
+
+[project]
+name = "todo-app-cli"
+version = "0.1.0"
+description = "A command-line todo application"
+readme = "README.md"
+authors = [{name = "Developer", email = "developer@example.com"}]
+license = {text = "MIT"}
+requires-python = ">=3.13"
+dependencies = [
+    # argparse is part of the standard library, so no need to add it here
+]
+
+[project.scripts]
+todo = "todo_app.main:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "flake8>=5.0",
+    "black>=23.0",
+    "pre-commit>=3.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
