@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Test task",
       "description": "This is a test",
-      "status": "pending",
+      "status": "complete",
       "priority": "high",
       "tags": [],
       "due_date": null,
