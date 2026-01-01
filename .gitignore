@@ -2,6 +2,7 @@
 venv/
 env/
 ENV/
+.venv/
 
 # Python cache files
 __pycache__/
@@ -10,9 +11,10 @@ __pycache__/
 *.pyd
 .Python
 *.so
+*.py[cod]
+*$py.class
 
 # Distribution / packaging
-.Python
 build/
 develop-eggs/
 dist/
@@ -28,6 +30,10 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
+.pybuild/
+.tox/
+.nox/
 
 # IDEs
 .vscode/
@@ -41,3 +47,17 @@ Thumbs.db
 
 # Logs
 *.log
+*.out
+
+# Environment variables
+.env*
+.envrc
+
+# Coverage
+.coverage
+htmlcov/
+.coverage.*
+
+# Testing
+.pytest_cache/
+.hypothesis/
