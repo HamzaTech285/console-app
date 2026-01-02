@@ -212,6 +212,8 @@ See `.specify/memory/constitution.md` for code quality, testing, performance, se
 ## Active Technologies
 - Python 3.13+ + argparse (for CLI), uv (for environment management) (001-todo-app-cli)
 - Local file storage (JSON format) for persistence across sessions (001-todo-app-cli)
+- Python 3.13+ (Backend), JavaScript/TypeScript (Frontend) + Next.js 16+ (App Router), Tailwind CSS, FastAPI, SQLModel, Neon PostgreSQL, Better Auth (002-fullstack-todo-app)
+- Neon PostgreSQL database with SQLModel ORM (002-fullstack-todo-app)
 
 ## Recent Changes
 - 001-todo-app-cli: Added Python 3.13+ + argparse (for CLI), uv (for environment management)
